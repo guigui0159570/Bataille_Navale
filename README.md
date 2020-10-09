@@ -24,3 +24,6 @@ Absent à la séance : Guillaume
 ### séance du 09 octobre 2020 : 2h
 - création de la grille 
 - modification de la fonction jeu
+
+### Lien pour rajouter des son et une musique de fond ###
+https://riptutorial.com/fr/pygame/topic/7419/ajout-de-musique-de-fond-et-d-effets-sonores

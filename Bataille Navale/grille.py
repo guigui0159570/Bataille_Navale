@@ -13,46 +13,45 @@ class Grille():
         
     def affiche(self, lettre, chiffre):
         L = [0,1,2,3,4,5,6,7,8,9]
-        assert chiffre not in 
-        if lettre == "A":
+        if lettre == "A" or lettre == "a":
             return self.A[chiffre]
-        elif lettre == "B":
+        elif lettre == "B" or lettre == "b":
             return self.B[chiffre]
-        elif lettre == "C":
+        elif lettre == "C" or lettre == "c":
             return self.C[chiffre]
-        elif lettre == "D":
+        elif lettre == "D" or lettre == "d" :
             return self.D[chiffre]
-        elif lettre == "E":
+        elif lettre == "E" or lettre == "e":
             return self.E[chiffre]
-        elif lettre == "F":
+        elif lettre == "F" or lettre == "f":
             return self.F[chiffre]
-        elif lettre == "G":
+        elif lettre == "G" or lettre == "g":
             return self.G[chiffre]
-        elif lettre == "H":
+        elif lettre == "H" or lettre == "h":
             return self.H[chiffre]
-        elif lettre == "I":
+        elif lettre == "I" or lettre == "i":
             return self.I[chiffre]
-        elif lettre == "J":
+        elif lettre == "J" or lettre == "j":
             return self.J[chiffre]
         
     def modif(self, lettre, chiffre, état):
-        if lettre == "A":
+        if lettre == "A" or lettre == "a":
             self.A[chiffre] = état
-        elif lettre == "B":
+        elif lettre == "B" or lettre == "b":
             self.B[chiffre] = état
-        elif lettre == "C":
+        elif lettre == "C" or lettre == "c":
             self.C[chiffre] = état
-        elif lettre == "D":
+        elif lettre == "D" or lettre == "d":
             self.D[chiffre] = état
-        elif lettre == "E":
+        elif lettre == "E" or lettre == "e":
             self.E[chiffre] = état
-        elif lettre == "F":
+        elif lettre == "F" or lettre == "f":
             self.F[chiffre] = état
-        elif lettre == "G":
+        elif lettre == "G" or lettre == "g":
             self.G[chiffre] = état
-        elif lettre == "H":
+        elif lettre == "H" or lettre == "h":
             self.H[chiffre] = état
-        elif lettre == "I":
+        elif lettre == "I" or lettre == "i":
             self.I[chiffre] = état
-        elif lettre == "J":
+        elif lettre == "J" or lettre == "j":
             self.J[chiffre] = état

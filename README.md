@@ -15,3 +15,9 @@ Mise en forme du projet.
   - Frappe qui permet de saisir la position de la case touché par l'adversaire.
   - Class bateau
 Absent à la séance : Guillaume
+
+
+### séance du 09 octobre 2020 : 2h
+- création de la grille 
+- modification de la fonction jeu 
+-

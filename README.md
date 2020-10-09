@@ -1,6 +1,8 @@
 # Bataille Navale
 ## Description
 Jeu de bataille navale.
+Pycharm
+https://www.jetbrains.com/fr-fr/pycharm/
 
 ​https://annuel2.framapad.org/p/battaille-navale-nsi-9j45?lang=fr
 page web pour pygame
@@ -21,5 +23,4 @@ Absent à la séance : Guillaume
 
 ### séance du 09 octobre 2020 : 2h
 - création de la grille 
-- modification de la fonction jeu 
--
+- modification de la fonction jeu

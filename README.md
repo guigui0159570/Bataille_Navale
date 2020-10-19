@@ -1,12 +1,12 @@
 # Bataille Navale
 ## Description
 Jeu de bataille navale.
-Pycharm
-https://www.jetbrains.com/fr-fr/pycharm/
 
+## Notre Framapad
 ​https://annuel2.framapad.org/p/battaille-navale-nsi-9j45?lang=fr
-page web pour pygame
-https://mbphysique.pagesperso-orange.fr/ISN/python/co/Afficher_une_fenetre.html
+
+## Liens que nous utilisons pour nous aider
+- page web pour pygame : ​https://mbphysique.pagesperso-orange.fr/ISN/python/co/Afficher_une_fenetre.html
 
 ## Programme des séances
 ### Séance du 23 Septembre 2020 : 1h

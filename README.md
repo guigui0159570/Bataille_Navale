@@ -6,7 +6,8 @@ Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJ
 
 ## Liens que nous utilisons pour nous aider
 - page web pour pygame : ​https://mbphysique.pagesperso-orange.fr/ISN/python/co/Afficher_une_fenetre.html
-- Lien pour rajouter des son et une musique de fond : https://riptutorial.com/fr/pygame/topic/7419/ajout-de-musique-de-fond-et-d-effets-sonores
+- Lien pour rajouter des son et une musique de fond : https://riptutorial.com/fr/pygame/topic/7419/ajout-de-musique-de-fond-et-d-effets-sonores.
+- lien pygame : https://riptutorial.com/fr/pygame
 
 ## Programme des séances
 ### Séance du 23 Septembre 2020 : 1h

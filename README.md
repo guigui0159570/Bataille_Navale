@@ -17,8 +17,6 @@ Mise en forme du projet.
 - Début de programmation de la fonction : 
   - Frappe qui permet de saisir la position de la case touché par l'adversaire.
   - Class bateau
-Absent à la séance : Guillaume
-
 
 ### Séance du 09 octobre 2020 : 2h
 - création de la grille 

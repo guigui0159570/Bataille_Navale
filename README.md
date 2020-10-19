@@ -1,6 +1,5 @@
 # Bataille Navale
-## Description
-Jeu de bataille navale.
+Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJEAN.
 
 ## Notre Framapad
 ​https://annuel2.framapad.org/p/battaille-navale-nsi-9j45?lang=fr

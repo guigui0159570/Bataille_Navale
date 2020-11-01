@@ -12,10 +12,13 @@ vert = (0, 255, 0)
 noir = (0, 0, 0)
 blanc = (255, 255, 255)
 gris = (220, 220, 220)
+jaune = (255, 255, 0)
 
 def musique(situation):
     if situation == "BOOM":
         file = explosion
+    elif situation == "Victoire":
+        file = victoirem
     pygame.mixer.music.load(file)
     pygame.mixer.music.play(1)
 
@@ -28,7 +31,8 @@ def jmp():
 
 # Importations musiques
 theme = "Musiques\epic-background-music-for-video-adventure-trailer-royalty-free-download.mp3"
-explosion = 'Musiques\bruitage-explosion.mp3'
+explosion = "Musiques\bruitage-explosion.mp3"
+victoirem = "Musiques\le-son-de-la-victoire-go-habs-go-coupe-stanley-2015-orchestre-symphonique-de-montreal-osm.mp3"
 
 # Initialisation des grilles : 
 grille1 = Grille()
@@ -48,13 +52,14 @@ titre = font.render("Bataille Navale", 1, blanc)
 titrejeu = font2.render("Mise en place du jeu", 1, blanc)
 titrej1 = font2.render("Écran du joueur 1", 1, blanc)
 titrej2 = font.render("Écran du joueur 2", 1, blanc)
+victoire = font.render("VICTOIRE", 1, jaune)
 
 # Menu pricipal :
 btjouer = Boutons(gris, 375, 312.5, 250, 250//2, "Jouer", blanc)
 btquiter = Boutons(gris, 375, 500, 250, 250//2, "Quitter", blanc)
 
 # Boutons réutilisable :
-btok = Boutons(noir, 0, 0, 400, 200,  "Ok", blanc)
+btok = Boutons(noir, 450, 680, 100, 50,  "Ok", blanc)
 
 def fsit(situation):
     pygame.mixer.music.stop()
@@ -72,7 +77,7 @@ def fsit(situation):
         pygame.display.set_caption("Bataille Navale by GUITOEVC - Jeu - Mise en place")
         fenetre.blit(titrejeu, (10,10))
         btok.draw(fenetre)
-    else:
+    elif situation == "Joueur 1" or situation == "Joueur 2":
         pygame.display.set_caption("Bataille Navale by GUITOEVC - Jeu - " + situation)
         if situation == "Joueur 1":
             fenetre.blit(titrej1, (10,10))
@@ -80,6 +85,17 @@ def fsit(situation):
         elif situation == "Joueur 2":
             fenetre.blit(titrej2, (10, 10))
             grilleob = grille2
+    elif situation == "Victoire j1" or situation == "Victoire j2":
+            if situation == "Victoire j1":
+                joueur = "Joueur 1"
+            else:
+                joueur = "Joueur 2"
+            fenetre.fill(bleutheme)
+            pygame.display.set_caption("Bataille Navale by GUITOEVC - Victoire - " + joueur)
+            fenetre.blit(victoire, (120,20))
+            btquiter.draw(fenetre)
+            musique("Victoire")
+            
         
         
 def changej(situation):
@@ -99,6 +115,12 @@ while True:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_x:
                 arret()
+            elif event.key == pygame.K_v:
+                if situation == "Joueur 1":
+                    situation = "Victoire j1"
+                elif situation == "Joueur 2":
+                    situation = "Victoire j2"
+                fsit(situation)
         elif event.type == pygame.MOUSEBUTTONDOWN:
             if situation == "Menu":
                 if btjouer.isOver(pygame.mouse.get_pos()) == True:
@@ -110,4 +132,7 @@ while True:
                 if btok.isOver(pygame.mouse.get_pos()) == True:
                     situation = "Joueur 1"
                     fsit(situation)
+            elif situation == "Victoire j1" or situation == "Victoire j2":
+                if btquiter.isOver(pygame.mouse.get_pos()) == True:
+                    arret()
     pygame.display.update()

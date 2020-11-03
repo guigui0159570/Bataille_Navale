@@ -34,5 +34,5 @@ Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJ
 - Création des boutons de jeu.
 - Création du code triche.
 
-### Séance du 03 Novembre 2020: 1h
+### Séance du 03 Novembre 2020 : 1h
 - Création du génértateur de grille 

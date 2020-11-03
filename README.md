@@ -2,7 +2,7 @@
 Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJEAN.
 
 ## Notre Framapad
-​https://annuel2.framapad.org/p/battaille-navale-nsi-9j45?lang=fr
+​ https://annuel2.framapad.org/p/battaille-navale-nsi-9j45?lang=fr
 
 ## Liens que nous utilisons pour nous aider
 - Page web pour pygame : ​https://mbphysique.pagesperso-orange.fr/ISN/python/co/Afficher_une_fenetre.html

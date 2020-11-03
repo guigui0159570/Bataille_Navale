@@ -9,6 +9,8 @@ Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJ
 - Lien pour rajouter des son et une musique de fond : https://riptutorial.com/fr/pygame/topic/7419/ajout-de-musique-de-fond-et-d-effets-sonores.
 - Lien pygame : https://riptutorial.com/fr/pygame
 
+
+
 ## Programme des séances :
 
 ### Séance du 23 Septembre 2020 : 1h
@@ -35,4 +37,5 @@ Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJ
 - Création du code triche.
 
 ### Séance du 03 Novembre 2020 : 1h
-- Création du génértateur de grille 
+- Création du placeur de bateau.
+- Création du génértateur de grille.

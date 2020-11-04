@@ -39,3 +39,6 @@ Jeu de bataille navale crée par Guillaume CODER, Thomas FAGUNDES et Evan PETITJ
 ### Séance du 03 Novembre 2020 : 1h
 - Création du placeur de bateau.
 - Création du génértateur de grille.
+
+### Séance du 04 Novembre 2020 : 1h
+- Création des 100 boutons (toucher couler).

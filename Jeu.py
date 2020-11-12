@@ -13,7 +13,7 @@ noir = (0, 0, 0)
 blanc = (255, 255, 255)
 gris = (220, 220, 220)
 jaune = (255, 255, 0)
-
+''' utilisation des sons '''
 def musique(situation):
     if situation == "BOOM":
         file = explosion
@@ -21,7 +21,7 @@ def musique(situation):
         file = victoirem
     pygame.mixer.music.load(file)
     pygame.mixer.music.play(1)
-
+''' fonction afin de pouvoir sortir du jeu '''
 def arret():
     pygame.quit()
     exit()
@@ -61,6 +61,8 @@ btquiter = Boutons(gris, 375, 500, 250, 250//2, "Quitter", blanc)
 # Boutons réutilisable :
 btok = Boutons(noir, 450, 680, 100, 50,  "Ok", blanc)
 
+''' fonction qui verifie si le jeu doit mettre de la musique ou si la partie n'est pas encore terminé ps: cette fonction s'execute tout le long du jeu ''' 
+
 def fsit(situation):
     pygame.mixer.music.stop()
     pygame.display.update(fenetre.fill(gris))
@@ -96,7 +98,7 @@ def fsit(situation):
             btquiter.draw(fenetre)
             musique("Victoire")
             
-        
+        ''' Fonction qui effectue la permutation des joueurs dans le jeu '''
         
 def changej(situation):
     if situation == "Joueur 1":
@@ -104,7 +106,7 @@ def changej(situation):
     elif situation == "Joueur 2":
         situation = "Joueur 1"
     return situation
-
+''' fonction principale sans elle le jeu n'existe pas '''
 # Jeu :
 situation = "Menu"
 fsit(situation)

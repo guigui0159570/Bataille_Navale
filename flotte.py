@@ -21,11 +21,31 @@ class Flotte():
     def deg(self, ele):
         if ele == "P":
             self.porte_avion -= 1
+        elif ele == "C":
+            self.croiseur -= 1
+        elif ele == "Ct":
+            self.contre_torpilleur1 -= 1
+        elif ele == "ct":
+            self.contre_torpilleur2 -= 1
+        elif ele == "T":
+            self.torpilleur -= 1
     
     def detruit(self):
         res = False
         if self.porte_avion == 0:
             self.porte_avion = None
+            res = True
+        elif self.croiseur == 0:
+            self.croiseur = None
+            res = True
+        elif self.contre_torpilleur1 == 0:
+            self.contre_torpilleur1 = None
+            res = True
+        elif self.contre_torpilleur2 == 0:
+            self.contre_torpilleur2 = None
+            res = True
+        elif self.torpilleur == 0:
+            self.torpilleur = None
             res = True
         if res == True:
             self.iflotte -= 1

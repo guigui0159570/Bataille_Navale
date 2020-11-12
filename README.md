@@ -3,7 +3,7 @@ Jeu de bataille navale crée par GUITOEV
 
 Guillaume CODER, Thomas FAGUNDES et Evan PETITJEAN.
 
-## Notre Framapad
+## Notre Framapad.
 !!!!! Le Framapad n'a était mis a jour que lors de la mise en forme du projet !!!!!
 ​ https://annuel2.framapad.org/p/battaille-navale-nsi-9j45?lang=fr
 

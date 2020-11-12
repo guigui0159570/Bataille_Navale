@@ -2,7 +2,7 @@ import pygame
 from pygame.locals import*
 
 noir = (0, 0, 0)
-
+''' ici nous avons crée les boutons il nous reste juste a les integrer
 class Boutons():
     def __init__(self, color, x,y,width,height, text='', colortext=noir):
         self.color = color

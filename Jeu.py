@@ -211,7 +211,7 @@ def fsit(situation):
             fenetre.blit(vj1, (230, 150))
         else:
             joueur = "Joueur 2"
-            fenetre.blit(vj2, (230, 20))
+            fenetre.blit(vj2, (230, 150))
         pygame.display.set_caption("Bataille Navale by GUITOEV - Victoire - " + joueur)
         fenetre.blit(victoire, (230,20))
         btquiter.draw(fenetre)
@@ -260,6 +260,8 @@ while True:
                 situation = "Jeu j1"
                 grille1.ret()
                 grille2.ret()
+                flotte1.ret()
+                flotte2.ret()
                 fsit(situation)
         elif event.type == pygame.MOUSEBUTTONDOWN: # Clic souris
             if situation == "Menu": # Verification des boutons du Menu
@@ -282,6 +284,7 @@ while True:
                 elif btrec.isOver(pygame.mouse.get_pos()) == True:
                     egrille.ret()
                     egrille.choixgrille()
+                    fsit(situation)
             elif situation == "Victoire j1" or situation == "Victoire j2":
                 if btjouer.isOver(pygame.mouse.get_pos()) == True: # Lancement du jeu
                     situation = "Jeu j1"

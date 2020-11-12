@@ -13,10 +13,7 @@ Guillaume CODER, Thomas FAGUNDES et Evan PETITJEAN.
 - Lien pour rajouter des son et une musique de fond : https://riptutorial.com/fr/pygame/topic/7419/ajout-de-musique-de-fond-et-d-effets-sonores.
 - Lien pygame : https://riptutorial.com/fr/pygame
 
-## temps de travail éffectué sur le projet : 13h45
-
-
-## Programme des séances :
+## Programme des séances : 13h45 total consacré
 
 ### Séance du 23 Septembre 2020 : 1h
 - Mise en forme du projet.

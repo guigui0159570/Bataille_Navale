@@ -55,16 +55,16 @@ Guillaume CODER, Thomas FAGUNDES et Evan PETITJEAN.
 - Modification des differents son (Victoire, explosion, defaite)
 
 ### Séance du 11 Novembre 2020 : 2h
--création des differentes grilles. 
--intégration des grilles.
--correction des differents problèmes de l'interface. 
--intégrations des Bateaux dans les grilles.
--Mise en place de la docstring
--Intégration des sons modifié dans le jeu.
+- création des differentes grilles. 
+- intégration des grilles.
+- correction des differents problèmes de l'interface. 
+- intégrations des Bateaux dans les grilles.
+- Mise en place de la docstring
+- Intégration des sons modifié dans le jeu.
 
 ### Séance du 12 Novembre 2020 : 45 minutes
--Test du jeu en effectuant plusieurs partie.
--Ultime verification du code.
+- Test du jeu en effectuant plusieurs partie.
+- Ultime verification du code.
 
 ### Séance du 13 Novembre 2020 : 0 minute
--remise du projet au professeur.
+- remise du projet au professeur.

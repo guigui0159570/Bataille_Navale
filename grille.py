@@ -106,15 +106,53 @@ class Grille():
             ele = self.H[chiffre]
         elif lettre == "I":
             ele = self.I[chiffre]
-        else:
+        elif lettre == "J":
             ele = self.J[chiffre]
         if ele == "X" or ele == "O":
-            return False
-        else:
             return ele
+        else:
+            return None
     
     def choixgrille(self):
         """
         Méthode qui donne une grille.
         """
-        pass
+        grille = randint(1,5)
+        if grille == 1:
+            self.B = [None, None, None, None, None, "P", "P", "P", "P", "P"]
+            self.C[2] = "T"
+            self.D[2] = "T"
+            self.G[2] = "Ct"
+            self.H[2] = "Ct"
+            self.I[2] = "Ct"
+            self.H[5] = "ct"
+            self.H[6] = "ct"
+            self.H[7] = "ct"
+            self.E = [None, None, None, None, None, "C", "C", "C", "C", None]
+        elif grille == 2:
+            self.A[1] = "T"
+            self.B[1] = "T"
+            self.C = [None, None, None, None, "Ct", "Ct", "Ct", "P", None, None]
+            self.D[7] = "P"
+            self.E[7] = "P"
+            self.F = [None, None, "ct", "ct", "ct", None, None, "P", None, None]
+            self.G[7] = "P"
+            self.H[7] = "P"
+            self.I = [None, None, "C", "C", None, None, None, None, None, None]
+        elif grille == 3:
+            self.B = [None, None, None, None, None, "Ct", "Ct", "Ct", None, None]
+            self.E = [None, "P", "P", "P", "P", "P", None, "C", "C", None]
+            self.H = [None, None, None, None, None, "ct", "ct", "ct", None, None]
+            self.J = [None, None, None, "C", "C", "C", "C", None, None, None]
+        elif grille == 4:
+            self.C = ["T", "T", None, None, None, None, None, "Ct", None, None]
+            self.D[7] = "Ct"
+            self.E = [None, "P", "P", "P", "P", "P", None, "Ct", None, None]
+            self.F[0] = "ct"
+            self.G[0] = "ct"
+            self.H = ["ct", None, "C", "C", "C", "C", None, None, None, None]
+        elif grille == 5:
+            self.C = [None, "C", "C", "C", "C", None, None, "Ct", "Ct", "Ct"]
+            self.F = [None, "ct", "ct", "ct", None, None, None, None, None, None]
+            self.G = [None, None, None, None, None, None, None, "T", "T", None]
+            self.I = ["P", "P", "P", "P", None, None, None, None, None, None]
